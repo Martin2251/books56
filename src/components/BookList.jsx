@@ -8,10 +8,9 @@ import { useAppContext } from "./context/appContext";
 const BookList = ({id, title}) => {
   const [books, setBooks] = useState([]);
 
-  const {favourites,addToFavourites,removeFromFavourites} = useAppContext();
+  const { favourites, addToFavourites,removeFromFavourites} = useAppContext();
 
-  console.log("favourites", favourites);
-
+  console.log(favourites)
   useEffect(() => {
     axios
       .get(API_URL)
