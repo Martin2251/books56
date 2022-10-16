@@ -73,3 +73,16 @@ button{
   width: 300px;
   font-size: 20px;
 }
+
+.book-details{
+  min-height:80vh;
+  width:100%;
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.book-desc{
+  margin: 0 10px;
+}
