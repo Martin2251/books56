@@ -9,10 +9,12 @@ const Favourites = () => {
     const boolean = favorites.some((book) => book.id === id);
     return boolean;
   };
+  console.log(favorites)
   return (
     <div className="favorites">
       { favorites > 0 ? favorites.map((book) => (
         <div key={book.id} className="book">
+         
           <div>
             <h4>{book.title}</h4>
           </div>

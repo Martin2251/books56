@@ -4,7 +4,7 @@ import BookList from './components/BookList';
 import BookDetails from './components/BookDetails';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Favourites from './components/Favorites';
+import Favorites from './components/Favorites';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route  path="/" element={<BookList/>}/>
         <Route  path="/books/:id" element={<BookDetails/>}/>
-        <Route  path="/favourites" element={<Favourites/>}/>
+        <Route  path="/favorites" element={<Favorites/>}/>
       </Routes>
       <Footer  />
 
